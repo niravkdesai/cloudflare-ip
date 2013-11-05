@@ -171,5 +171,5 @@ fi
 
 if [ "$m1" = "3" ];then
 echo -e "$COL_CYAN View new open window in firefox & then view Hosting History $COL_RESET"
-firefox http://toolbar.netcraft.com/site_report?url=$var1 > output.html
+firefox http://toolbar.netcraft.com/site_report?url=$var1
 fi
